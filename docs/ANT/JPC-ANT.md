@@ -1,8 +1,0 @@
-<!--TMP
-# XXXXX
-## TUTORIALS
-## RESOURCES
-## Q&A
--->
-
-#PREPARING

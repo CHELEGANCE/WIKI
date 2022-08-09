@@ -1,9 +1,14 @@
 site_name: CHELEGANCE WIKI PAGE
 
+
 nav:
     - Home: index.md
-    - VNA:
-      - JNCRADIO VNA 3G: VNA/JNCRADIO-VNA-3G.md
-      - SV4401A: VNA/SV4401A.md
+    - METERS:
+      - VNA:
+        - JNCRADIO VNA 3G: METER/JNCRADIO-VNA-3G/JNCRADIO-VNA-3G.md
+        - SV4401A: METER/SV4401A/SV4401A.md
     - ANT:
-      - JPC ANTENNA: ANT/JPC-ANT.md
+      - JPC ANTENNA: ANT/JPC/JPC-ANT.md
+      - GA450 LOOP ANTENNA: 404.md
+      - GA800 LOOP ANTENNA: 404.md
+      - MX304 ANT SWITCH: 404.md
