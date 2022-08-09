@@ -1,15 +1,3 @@
-<!--TMP
-# TUTORIALS
----
-
-# RESOURCES
----
-
-
-# Q&A
----
-
--->
 
 # TUTORIALS
 ---
