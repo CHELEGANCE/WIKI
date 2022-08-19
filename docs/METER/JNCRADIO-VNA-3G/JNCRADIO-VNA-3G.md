@@ -9,7 +9,19 @@
 ---
 ## FIRMWARE UPDATES
 
-- [v1.0.2_LATEST](V1.0.2.zip) – RELEASED 2022.1.25
+- [v1.1.0_LATEST](JNCRadio_VNA_3G_firmware_v1.1.0.zip) - RELEASED 2022.8.19
+```
+1. Scan points increased to 1001;
+2. When only channel S11 is turned on, the acquisition and processing of channel S21 will be automatically stopped to speed up scanning;
+3. Corrected the sign of group delay value, and improved the group delay noise;
+4. Fixed the bug of TDR mode;
+5. When 'save' or 'recall' command is sent with no arguments, the status of all save/recall slots will be printed;
+6. Dark mode support: copy 'dark_mode.txt' to the root directory of the VNA to enable dark mode;
+7. Optimized the display format of the frequency range on the main screen;
+8. Add the battery level icon.
+```
+
+- [v1.0.2](V1.0.2.zip) – RELEASED 2022.1.25
 ```
 1.COMPATIBLE WITH NANOVNA-SAVER-0.3.10, CAN BE RECOGNIZED AS ‘JNCRADIO’.
 
