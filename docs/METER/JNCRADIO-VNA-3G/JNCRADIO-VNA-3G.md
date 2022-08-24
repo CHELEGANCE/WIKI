@@ -7,6 +7,10 @@
 
 # RESOURCES
 ---
+## USER MANUAL
+
+- [JNCRADIO VNA 3G User Manual_V1.0](JNCRadio VNA 3G Portable Vector Network Analyzer User Manual V1.0_0.1.pdf)
+
 ## FIRMWARE UPDATES
 
 - [v1.1.0_LATEST](JNCRadio_VNA_3G_firmware_v1.1.0.zip) - RELEASED 2022.8.19
