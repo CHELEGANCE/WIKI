@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../../img/favicon.ico">
-        <title>JNCRADIO VNA 3G - CHELEGANCE WIKI PAGE</title>
+        <title>TUTORIALS - CHELEGANCE WIKI PAGE</title>
         <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../../css/base.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                             <li >
                                 <a href="../../..">Home</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">METERS <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -57,12 +57,12 @@
     <a href="#">VNA</a>
     <ul class="dropdown-menu">
             
-<li class="active">
-    <a href="./">JNCRADIO VNA 3G</a>
+<li >
+    <a href="../../../METER/JNCRADIO-VNA-3G/JNCRADIO-VNA-3G/">JNCRADIO VNA 3G</a>
 </li>
             
 <li >
-    <a href="../../SV4401A/SV4401A/">SV4401A</a>
+    <a href="../../../METER/SV4401A/SV4401A/">SV4401A</a>
 </li>
     </ul>
   </li>
@@ -101,16 +101,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../../..">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li >
-                                <a rel="prev" href="../../SV4401A/SV4401A/">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -122,8 +112,6 @@
         <li class="main active"><a href="#tutorials">TUTORIALS</a></li>
         <li class="main "><a href="#resources">RESOURCES</a></li>
             <li><a href="#user-manual">USER MANUAL</a></li>
-            <li><a href="#firmware-updates">FIRMWARE UPDATES</a></li>
-            <li><a href="#desktop-software-packages">DESKTOP SOFTWARE PACKAGES</a></li>
         <li class="main "><a href="#qa">Q&amp;A</a></li>
     </ul>
 </div></div>
@@ -131,74 +119,20 @@
 
 <h1 id="tutorials">TUTORIALS</h1>
 <hr />
-<ul>
-<li><a href="https://www.youtube.com/watch?v=rNNP-izZUbo&amp;t=78s">GENERAL INTRODUCTION IN ENGLISH BY @MLS</a></li>
-<li><a href="https://www.youtube.com/watch?v=OA9Fm3M0ty8&amp;t=2s">CABLE LOSS MEASUREMENT IN ENGLISH BY @CHELEGANCE</a></li>
-<li><a href="../POSTS/FIRMWARE-UPGRADE/">FIRMWARE UPGRADE</a></li>
-</ul>
 <h1 id="resources">RESOURCES</h1>
 <hr />
 <h2 id="user-manual">USER MANUAL</h2>
-<ul>
-<li><a href="../JNCRadio VNA 3G Portable Vector Network Analyzer User Manual V1.0_0.1.pdf">JNCRADIO VNA 3G User Manual_V1.0</a></li>
-</ul>
-<h2 id="firmware-updates">FIRMWARE UPDATES</h2>
-<ul>
-<li><a href="../JNCRadio_VNA_3G_firmware_v1.1.0.zip">v1.1.0_LATEST</a> - RELEASED 2022.8.19</li>
-</ul>
-<pre><code>1. Scan points increased to 1001;
-2. When only channel S11 is turned on, the acquisition and processing of channel S21 will be automatically stopped to speed up scanning;
-3. Corrected the sign of group delay value, and improved the group delay noise;
-4. Fixed the bug of TDR mode;
-5. When 'save' or 'recall' command is sent with no arguments, the status of all save/recall slots will be printed;
-6. Dark mode support: copy 'dark_mode.txt' to the root directory of the VNA to enable dark mode;
-7. Optimized the display format of the frequency range on the main screen;
-8. Add the battery level icon.
-</code></pre>
-
-<ul>
-<li><a href="../V1.0.2.zip">v1.0.2</a> – RELEASED 2022.1.25</li>
-</ul>
-<pre><code>1.COMPATIBLE WITH NANOVNA-SAVER-0.3.10, CAN BE RECOGNIZED AS ‘JNCRADIO’.
-
-2.FIXED KNOWN TYPOS.
-</code></pre>
-
-<ul>
-<li><a href="../V1.0.0.zip">v1.0.0</a></li>
-</ul>
-<h2 id="desktop-software-packages">DESKTOP SOFTWARE PACKAGES</h2>
-<ul>
-<li><a href="../../nanovna-saver-0.3.10.exe">0.3.10_LATEST</a> – RELEASED 2022.1.25</li>
-</ul>
-<pre><code>1.SWEEP POINTS CAN BE SET UP TO 501 POINTS(101,201 IN PREVIOUS VERSIONS)
-
-2.COMPATIBLE WITH JNCRADIO-VNA-3G
-</code></pre>
-
-<ul>
-<li><a href="../../nanovna-saver-0.3.8.exe">0.3.8</a></li>
-</ul>
+<p>*</p>
 <h1 id="qa">Q&amp;A</h1>
 <hr />
 <ul>
-<li>
-<p>Is there a Battery level indication?</p>
-<p>Battery level indication is now(firmware version 1.0.2 and previous) presented by voltage figures - lower than 3.4v to recharge is recommended, and lower than 3.2v devices will auto be turned off. This can be later changed to percentage in a later firmware upgrade.</p>
-</li>
-<li>
-<p>How do you set the time from the front panel?</p>
-<p>RTC time needs to be set from the command line - there are instructions in the manual.</p>
-</li>
-<li>
-<p>What are the differences from the early version(f v2)?</p>
-<p>1.Scanning speed increased by 4 times to 400 points/s ;<br />
-2.Scanning points up to 501, which will present more details of the measurement;<br />
-3.Up to 13 calibration state storage slots;<br />
-4.Snp files are named with RTC time, which is easy for viewing;<br />
-5.More powerful processor makes the operation smoother and facilitates subsequent firmware upgrades to add more new features.   </p>
-</li>
-</ul></div>
+<li>Is CS-818 in bypass mode when the it is turned off?</li>
+</ul>
+<p>Nope. CS-818 uses magnetic relays and it stays the same as the last tuning status before you turn it off.</p>
+<ul>
+<li>What are online/bypass modes?</li>
+</ul>
+<p>There are basically 2 status in CS-818 - online and bypass. 'Online' means CS-818 is taking part in the system while 'bypass' indicates the opposite - Your radio is directly connected to your antenna when it is in 'bypass' mode.</p></div>
         </div>
 
         <footer class="col-md-12">
