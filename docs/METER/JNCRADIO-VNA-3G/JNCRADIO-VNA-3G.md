@@ -2,6 +2,7 @@
 # TUTORIALS
 ---
 * [GENERAL INTRODUCTION IN ENGLISH BY @MLS](https://www.youtube.com/watch?v=rNNP-izZUbo&t=78s)
+* [ANTENNA SETUP(SWR&SMITH CHART)](https://www.youtube.com/watch?v=1UaOFN1Xf1g)
 * [CABLE LOSS MEASUREMENT IN ENGLISH BY @CHELEGANCE](https://www.youtube.com/watch?v=OA9Fm3M0ty8&t=2s)
 * [FIRMWARE UPGRADE](POSTS/FIRMWARE-UPGRADE.md)
 
