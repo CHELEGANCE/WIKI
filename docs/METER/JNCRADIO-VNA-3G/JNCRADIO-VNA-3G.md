@@ -49,8 +49,18 @@
 
 # Q&A
 ---
+
+* Why my boot up screen and the firmware loading screen come out scrambled, does it mean my device is defective?
+
+    No worries this is a known case. The reason was that the clock of the bootloader was too fast and some screens couldn't follow and showed scrambled information. The way to fix it is to update the bootloader but that's not something an end user can do.
+
+    However it doesn't need to be fixed and It won't affect any usages of the VNA.
+
+
+
 * Is there a Battery level indication?
 
+    (YES for the latest firmware - v1.1.0)
     Battery level indication is now(firmware version 1.0.2 and previous) presented by voltage figures - lower than 3.4v to recharge is recommended, and lower than 3.2v devices will auto be turned off. This can be later changed to percentage in a later firmware upgrade.
 
 
