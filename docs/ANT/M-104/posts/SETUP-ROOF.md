@@ -21,7 +21,7 @@ I used one of the 'banana wire' radials from [MC-750 antenna](https://chelegance
 
 ![](../img/roof/3-.jpeg)
 
-Put the radial to the ring terminal and now it will act as my M-104 antenna counterpoise.
+Put the radial to the ring terminal and now it acted as my M-104 antenna counterpoise.
 
 ![](../img/roof/4-.jpeg)
 
@@ -37,4 +37,4 @@ Shortened a little bit further and i saw what i expected
 
 ![](../img/roof/8-.jpeg)
 
-Now the antenna is set. Time to start my QSOs!
+ Antenna was set. Time to start QSOs!
