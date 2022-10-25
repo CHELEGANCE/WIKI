@@ -1,10 +1,13 @@
 
 # TUTORIALS
 ---
-* [GENERAL INTRODUCTION IN ENGLISH BY @MLS](https://www.youtube.com/watch?v=rNNP-izZUbo&t=78s)
-* [ANTENNA SETUP(SWR&SMITH CHART)](https://www.youtube.com/watch?v=1UaOFN1Xf1g)
-* [CABLE LOSS MEASUREMENT IN ENGLISH BY @CHELEGANCE](https://www.youtube.com/watch?v=OA9Fm3M0ty8&t=2s)
-* [FIRMWARE UPGRADE](POSTS/FIRMWARE-UPGRADE.md)
+* GENERAL
+    * [INTRODUCTION](https://www.youtube.com/watch?v=rNNP-izZUbo&t=78s)
+    * [FIRMWARE UPGRADE](POSTS/FIRMWARE-UPGRADE.md)
+* ANTENNA SETUP
+    * [ANTENNA SETUP(SWR&SMITH CHART)](https://www.youtube.com/watch?v=1UaOFN1Xf1g)
+    * [Set up your GP antenna with JNCRadio VNA 3G!](https://www.youtube.com/watch?v=j3yaGd-8_zw&t=107s)
+* [CABLE LOSS MEASUREMENT](https://www.youtube.com/watch?v=OA9Fm3M0ty8&t=2s)
 
 
 # RESOURCES
@@ -49,6 +52,17 @@
 
 # Q&A
 ---
+
+* How do i pull traces, screenshots files from the VNA?
+
+On JNCRadio VNA 3G there are 2 ways to record the testing result, save the traces or perform a screenshot. Screenshots will be saved as image files, whereas trace data can be saved as .S1P file.
+
+Per screenshots, it can only be done from desktop software(You can't do screenshots from the VNA itself).
+
+Per .S1P file, the trace data is saved in the VNA.(Either from VNA or desktop software). You can pull the .S1P file from the VNA once it is connected to a PC and recognized as an U-disk(Means not connected to the desktop software).
+
+To make the VNA an U-disk to the PC, check the user manual - the firmware upgrade section.
+
 
 * Why my boot up screen and the firmware loading screen come out scrambled, does it mean my device is defective?
 
