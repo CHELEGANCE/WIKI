@@ -53,18 +53,18 @@
 # Q&A
 ---
 
-* How do i pull traces, screenshots files from the VNA?
+* **How do i pull traces, screenshots files from the VNA?**
 
-On JNCRadio VNA 3G there are 2 ways to record the testing result, save the traces or perform a screenshot. Screenshots will be saved as image files, whereas trace data can be saved as .S1P file.
+    On JNCRadio VNA 3G there are 2 ways to record the testing result, save the traces or perform a screenshot. Screenshots will be saved as image files, whereas trace data can be saved as .S1P file.
 
-Per screenshots, it can only be done from desktop software(You can't do screenshots from the VNA itself).
+    Per screenshots, it can only be done from desktop software(You can't do screenshots from the VNA itself).
 
-Per .S1P file, the trace data is saved in the VNA.(Either from VNA or desktop software). You can pull the .S1P file from the VNA once it is connected to a PC and recognized as an U-disk(Means not connected to the desktop software).
+    Per .S1P file, the trace data is saved in the VNA.(Either from VNA or desktop software). You can pull the .S1P file from the VNA once it is connected to a PC and recognized as an U-disk(Means not connected to the desktop software).
 
-To make the VNA an U-disk to the PC, check the user manual - the firmware upgrade section.
+    To make the VNA an U-disk to the PC, check the user manual - the firmware upgrade section.
 
 
-* Why my boot up screen and the firmware loading screen come out scrambled, does it mean my device is defective?
+* **Why my boot up screen and the firmware loading screen come out scrambled, does it mean my device is defective?**
 
     No worries this is a known case. The reason was that the clock of the bootloader was too fast and some screens couldn't follow and showed scrambled information. The way to fix it is to update the bootloader but that's not something an end user can do.
 
@@ -72,20 +72,28 @@ To make the VNA an U-disk to the PC, check the user manual - the firmware upgrad
 
 
 
-* Is there a Battery level indication?
+* **Is there a Battery level indication?**
 
     (YES for the latest firmware - v1.1.0)
     Battery level indication is now(firmware version 1.0.2 and previous) presented by voltage figures - lower than 3.4v to recharge is recommended, and lower than 3.2v devices will auto be turned off. This can be later changed to percentage in a later firmware upgrade.
 
 
-* How do you set the time from the front panel?
+* **How do you set the time from the front panel?**
 
-    RTC time needs to be set from the command line - there are instructions in the manual.
+    RTC time needs to be set from the command line - there are instructions in the manual.(section - "7.2.26 rtc")
 
-* What are the differences from the early version(f v2)?
+* **What are the differences from the early version(f v2)?**
 
     1.Scanning speed increased by 4 times to 400 points/s ;  
     2.Scanning points up to 501, which will present more details of the measurement;  
     3.Up to 13 calibration state storage slots;  
     4.Snp files are named with RTC time, which is easy for viewing;  
     5.More powerful processor makes the operation smoother and facilitates subsequent firmware upgrades to add more new features.   
+
+* **When in TDR what values are described by the scales on the sides of the screen?**
+
+      You can ignore those in TDR mode as the scale readings are not relevant.
+
+* **Regarding calibration, I have not seen a way to enter calibration standards for the cal kit being used, directly into the 3G itself,  ( I know this can be done when using  NanoSaver ) is this correct?**
+
+      It is correct, the function currently is not supported.
