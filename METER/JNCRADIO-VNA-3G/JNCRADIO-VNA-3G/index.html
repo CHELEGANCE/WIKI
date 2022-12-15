@@ -194,34 +194,42 @@
 <h1 id="qa">Q&amp;A</h1>
 <hr />
 <ul>
-<li>How do i pull traces, screenshots files from the VNA?</li>
-</ul>
+<li>
+<p><strong>How do i pull traces, screenshots files from the VNA?</strong></p>
 <p>On JNCRadio VNA 3G there are 2 ways to record the testing result, save the traces or perform a screenshot. Screenshots will be saved as image files, whereas trace data can be saved as .S1P file.</p>
 <p>Per screenshots, it can only be done from desktop software(You can't do screenshots from the VNA itself).</p>
 <p>Per .S1P file, the trace data is saved in the VNA.(Either from VNA or desktop software). You can pull the .S1P file from the VNA once it is connected to a PC and recognized as an U-disk(Means not connected to the desktop software).</p>
 <p>To make the VNA an U-disk to the PC, check the user manual - the firmware upgrade section.</p>
-<ul>
+</li>
 <li>
-<p>Why my boot up screen and the firmware loading screen come out scrambled, does it mean my device is defective?</p>
+<p><strong>Why my boot up screen and the firmware loading screen come out scrambled, does it mean my device is defective?</strong></p>
 <p>No worries this is a known case. The reason was that the clock of the bootloader was too fast and some screens couldn't follow and showed scrambled information. The way to fix it is to update the bootloader but that's not something an end user can do.</p>
 <p>However it doesn't need to be fixed and It won't affect any usages of the VNA.</p>
 </li>
 <li>
-<p>Is there a Battery level indication?</p>
+<p><strong>Is there a Battery level indication?</strong></p>
 <p>(YES for the latest firmware - v1.1.0)
 Battery level indication is now(firmware version 1.0.2 and previous) presented by voltage figures - lower than 3.4v to recharge is recommended, and lower than 3.2v devices will auto be turned off. This can be later changed to percentage in a later firmware upgrade.</p>
 </li>
 <li>
-<p>How do you set the time from the front panel?</p>
-<p>RTC time needs to be set from the command line - there are instructions in the manual.</p>
+<p><strong>How do you set the time from the front panel?</strong></p>
+<p>RTC time needs to be set from the command line - there are instructions in the manual.(section - "7.2.26 rtc")</p>
 </li>
 <li>
-<p>What are the differences from the early version(f v2)?</p>
+<p><strong>What are the differences from the early version(f v2)?</strong></p>
 <p>1.Scanning speed increased by 4 times to 400 points/s ;<br />
 2.Scanning points up to 501, which will present more details of the measurement;<br />
 3.Up to 13 calibration state storage slots;<br />
 4.Snp files are named with RTC time, which is easy for viewing;<br />
 5.More powerful processor makes the operation smoother and facilitates subsequent firmware upgrades to add more new features.   </p>
+</li>
+<li>
+<p><strong>When in TDR what values are described by the scales on the sides of the screen?</strong></p>
+<p>You can ignore those in TDR mode as the scale readings are not relevant.</p>
+</li>
+<li>
+<p><strong>Regarding calibration, I have not seen a way to enter calibration standards for the cal kit being used, directly into the 3G itself,  ( I know this can be done when using  NanoSaver ) is this correct?</strong></p>
+<p>It is correct, the function currently is not supported.</p>
 </li>
 </ul></div>
         </div>
