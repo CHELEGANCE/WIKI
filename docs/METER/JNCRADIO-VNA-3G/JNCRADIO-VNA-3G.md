@@ -18,7 +18,12 @@
 
 ## FIRMWARE UPDATES
 
-- [v1.1.0_LATEST](JNCRadio_VNA_3G_firmware_v1.1.0.zip) - RELEASED 2022.8.19
+- [v1.2.0_LATEST](v1.2.0.zip) - RELEASED 2023.1.30
+```
+FIXED THE BUG OF -6DB,-9DB NOT OUTPUT IN SIGNAL GENERATOR MODE
+```
+
+- [v1.1.0](JNCRadio_VNA_3G_firmware_v1.1.0.zip) - RELEASED 2022.8.19
 ```
 1. Scan points increased to 1001;
 2. When only channel S11 is turned on, the acquisition and processing of channel S21 will be automatically stopped to speed up scanning;
