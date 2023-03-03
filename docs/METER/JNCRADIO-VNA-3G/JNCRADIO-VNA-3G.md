@@ -58,6 +58,10 @@ FIXED THE BUG OF -6DB,-9DB NOT OUTPUT IN SIGNAL GENERATOR MODE
 # Q&A
 ---
 
+* **I'm interested in using the "JNCRadio VNA 3G" to measure the characteristics of an Xtal filter, but I'm concerned that the narrow bandwidth and small frequency step of the filter may not be compatible with the VNA 3G. The center frequency of my Xtal filter is below 60MHz. Would the VNA 3G be suitable for my needs?
+
+    Yes, the VNA 3G would be able to measure your Xtal filter with a center frequency below 140MHz and a frequency step of less than 100Hz.
+
 * **How do i pull traces, screenshots files from the VNA?**
 
     On JNCRadio VNA 3G there are 2 ways to record the testing result, save the traces or perform a screenshot. Screenshots will be saved as image files, whereas trace data can be saved as .S1P file.
