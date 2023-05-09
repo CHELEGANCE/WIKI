@@ -45,6 +45,8 @@ FIXED THE BUG OF -6DB,-9DB NOT OUTPUT IN SIGNAL GENERATOR MODE
 
 ## DESKTOP SOFTWARE PACKAGES
 
+You will need a [driver](https://www.st.com/en/development-tools/stsw-stm32102.html) be installed if you are not using a Win10.
+
 - [0.3.10_LATEST](../nanovna-saver-0.3.10.exe) – RELEASED 2022.1.25
 
 ```
