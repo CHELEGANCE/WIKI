@@ -14,11 +14,21 @@
 ---
 ## USER MANUAL
 
+- [JNCRADIO VNA 3G User Manual_V2.0](v2_JNCRadio VNA 3G Portable Vector Network Analyzer User Manual V2.0.pdf)
 - [JNCRADIO VNA 3G User Manual_V1.0](JNCRadio VNA 3G Portable Vector Network Analyzer User Manual V1.0_0.1.pdf)
 
 ## FIRMWARE UPDATES
 
-- [v1.2.0_LATEST](v1.2.0.zip) - RELEASED 2023.1.30
+- [v1.3.0_LATEST](JNCRadio_VNA_3G_firmware_v1.3.0.zip) - RELEASED 2023.8.23
+```
+JNCRadio_VNA 3G firmware v1.3.0 features
+1. New feature: add preset menu button;
+2. New feature: set date and time on device;
+3. Fixed bug of TDR mode;
+4. Menu structure optimized;
+```
+
+- [v1.2.0](v1.2.0.zip) - RELEASED 2023.1.30
 ```
 FIXED THE BUG OF -6DB,-9DB NOT OUTPUT IN SIGNAL GENERATOR MODE
 ```
